@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	background-image: url("../image/back.jpg");
+	background-repeat: repeat;
+	background-size: 500px;
+	background-position: center;
+	height: 100%;
+	
+}
+
+.backGallery{
+	width: 100%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+.backGalleryItem{
+	margin: 0px auto;
+	width: 500px;
+	}
+.imagesItem>img{
+	width: 240px;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+.imagesItem{
+	display: inline-block;
+	position: relative;
+}
+.frontGallery{
+	position:absolute;
+	width:300px;
+	height:150px;
+	overflow:hidden;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,.5);
+	display:none;
+}
+.frontGallery img{
+	position:absolute;
+	width:50%;
+	height: 100%;
+}
+.left,.right{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background: gray;
+	position: absolute;
+	z-index: 4;
+
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
