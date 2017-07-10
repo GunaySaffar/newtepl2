@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example</title>
+  <style>
+    .mainPic{
+    width:600px;
+    margin:0px auto;
+    overflow:hidden;
+  }
+  .img{
+    width: 100%;
+  }
+  .btns{
+    display: flex;
+    justify-content: space-between;
+}
+.imgLent{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    transition: .4s;
+    right: 0px;
+}
+.imgLent>div{
+    width: 600px;
+}
+  </style>
+</head>
+<body>
+  <div class="mainPic">
+    <div class="imgLent" style="right:0px">
+      <div class="imgDiv"><img src="image/gif2.gif" alt=""></div>
+      <div class="imgDiv"><img src="image/gif3.gif" alt=""></div>
+      <div class="imgDiv"><img src="image/gif4.gif" alt=""></div>
+      <div class="imgDiv"><img src="image/gif5.gif" alt=""></div>
+      <div class="imgDiv"><img src="image/gif6.gif" alt=""></div>
+      <div class="imgDiv"><img src="image/gif7.gif" alt=""></div>
+    </div>
+  </div>
+  <div class="btns">
+    <button type="left" onclick="goLeft()"><</button>
+    <button type="right" onclick="goRight()">></button>
+  </div>
+<script>
+
+</script>
+</body>
+</html>
